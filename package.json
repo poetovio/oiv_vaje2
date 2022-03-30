@@ -1,0 +1,33 @@
+{
+  "name": "oiv_vaje2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetovio/oiv_vaje2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poetovio/oiv_vaje2/issues"
+  },
+  "homepage": "https://github.com/poetovio/oiv_vaje2#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
